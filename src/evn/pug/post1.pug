@@ -1,5 +1,10 @@
 extends partials/layout
+block vars
+  - var title = "POST 1";
 block content 
-  h1 Dimension R 
-  p Proyectos e Ideas.
-  p Fecha: 2080
+  .container-fullwidth
+    .header 
+      .title 
+        h1 #{title}
+  .container
+    p Lorem ipsum
