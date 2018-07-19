@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Sellesia - A minimalist CSS Boilerplate</title>
+    <link rel="stylesheet" href="css/sellesia.css"/>
+    <link rel="stylesheet" href="css/sellesia-normalize.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Sellesia CSS</h1>
+      <h3>A minimalist CSS  Boilerplate</h3>
+      <hr/>
+      <p>Deberías usar Selesia si estás desarrollando en un proyecto  pequeño. Selesia solo diseña un puñado de elementos HTML estándar e incluye una grilla usando Flex Box, por lo general es más que suficiente para comenzar. De hecho, este sitio está construido sobre Selesia.</p>
+      <hr/>
+      <h6>CONTENEDOR </h6>
+      <p> class='container' ===  max-width: 960px</p>
+      <p> class='container-fullwidth' === width: 100%</p>
+      <hr/>
+      <h6>TIPOGRAFÍA</h6>
+      <p>Selesia usa la "font-family: 'Inconsolata'", creado por Raph Levien y provisto por Google Fonts.</p>
+      <h1>h1: Heading</h1>
+      <h2>h2: Heading</h2>
+      <h3>h3: Heading</h3>
+      <h4>h4: Heading</h4>
+      <h5>h5: Heading</h5>
+      <h6>h6: Heading</h6>
+      <hr/>
+      <h6>GRID </h6>
+      <p>Las columnas deben estar dentro de un caja con clase 'row'( class='row' ).</p>
+      <p>Columnas en porcentajes respecto al ancho del contenedor (container:960px y container-fullwidth: 100%).</p>
+      <p>Columnas autoajustables</p>
+      <div class="row">
+        <div class="column bg">
+          <p>.column</p>
+        </div>
+        <div class="column bg">
+          <p>.column</p>
+        </div>
+        <div class="column bg">
+          <p>.column</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column bg">
+          <p>.column</p>
+        </div>
+        <div class="column bg">
+          <p>.column</p>
+        </div>
+        <div class="column bg">
+          <p>.column</p>
+        </div>
+        <div class="column bg">
+          <p>.column</p>
+        </div>
+        <div class="column bg">
+          <p>.column</p>
+        </div>
+      </div>
+      <hr/>
+      <p>Columnas en porcentaje, modo de uso: agregar la clases 'column column-20'</p>
+      <div class="row"> 
+        <div class="column column-10 bg">
+          <p>10</p>
+        </div>
+        <div class="column column-90 bg">
+          <p>.column-90</p>
+        </div>
+      </div>
+      <div class="row"> 
+        <div class="column column-20 bg">
+          <p>.column-20</p>
+        </div>
+        <div class="column column-80 bg">
+          <p>.column-80</p>
+        </div>
+      </div>
+      <div class="row"> 
+        <div class="column column-25 bg">
+          <p>.column-25</p>
+        </div>
+        <div class="column column-75 bg">
+          <p>.column-75</p>
+        </div>
+      </div>
+      <div class="row"> 
+        <div class="column column-30 bg">
+          <p>.column-30</p>
+        </div>
+        <div class="column column-70 bg">
+          <p>.column-70</p>
+        </div>
+      </div>
+      <div class="row"> 
+        <div class="column column-one-third bg">
+          <p>.column-one-third</p>
+        </div>
+        <div class="column column-two-thirds bg">
+          <p>.column-two-thirds</p>
+        </div>
+      </div>
+      <div class="row"> 
+        <div class="column column-40 bg">
+          <p>.column-40</p>
+        </div>
+        <div class="column column-60 bg">
+          <p>.column-60</p>
+        </div>
+      </div>
+      <div class="row"> 
+        <div class="column column-50 bg">
+          <p>.column-50</p>
+        </div>
+        <div class="column column-50 bg">
+          <p>.column-50</p>
+        </div>
+      </div>
+      <div class="row"> 
+        <div class="column column-60 bg">
+          <p>.column-60</p>
+        </div>
+        <div class="column column-40 bg">
+          <p>.column-40</p>
+        </div>
+      </div>
+      <div class="row"> 
+        <div class="column column-two-thirds bg">
+          <p>.column-two-thirds</p>
+        </div>
+        <div class="column column-one-third bg">
+          <p>.column-one-third</p>
+        </div>
+      </div>
+      <p>Un tercio de ancho del contenedor.</p>
+      <div class="row"> 
+        <div class="column column-one-third bg">
+          <p>.column-one-third</p>
+        </div>
+      </div>
+      <p>Dos tercios de ancho del contenedor.</p>
+      <div class="row">
+        <div class="column column-two-thirds bg">
+          <p>.column-two-thirds</p>
+        </div>
+      </div>
+      <p>50% del contenedor.</p>
+      <div class="row"> 
+        <div class="column column-50 bg">
+          <p>.column-50</p>
+        </div>
+      </div>
+      <hr/>
+      <p>Dirección de items en columnas</p>
+      <div class="column-reverse">
+        <div class="column bg">
+          <p>column 1</p>
+        </div>
+        <div class="column bg">
+          <p>column 2</p>
+        </div>
+      </div>
+      <hr/>
+      <div class="row"> 
+        <div class="column column-one-third"><img src="https://ae01.alicdn.com/kf/HTB19oPufrZnBKNjSZFKq6AGOVXaK/Customized-3d-photo-wallpaper-3d-wall-mural-wallpaper-Float-world-draw-waves-hd-shop-background-living.jpg_640x640.jpg" alt="Miyuki"/></div>
+        <div class="column column-one-third"><img src="https://ae01.alicdn.com/kf/HTB19oPufrZnBKNjSZFKq6AGOVXaK/Customized-3d-photo-wallpaper-3d-wall-mural-wallpaper-Float-world-draw-waves-hd-shop-background-living.jpg_640x640.jpg" alt="Miyuki"/></div>
+        <div class="column column-one-third"><img src="https://ae01.alicdn.com/kf/HTB19oPufrZnBKNjSZFKq6AGOVXaK/Customized-3d-photo-wallpaper-3d-wall-mural-wallpaper-Float-world-draw-waves-hd-shop-background-living.jpg_640x640.jpg" alt="Miyuki"/></div>
+      </div>
+      <hr/>
+      <h6>LINKS</h6>
+      <div class="row">
+        <ul>
+          <li><a class="link" href="">Enlace 1</a></li>
+          <li> <a class="link" href="">Enlace 2</a></li>
+          <li> <a class="link" href="">Enlace 3</a></li>
+          <li> <a class="link" href="">Enlace 4</a></li>
+        </ul>
+      </div>
+      <hr/>
+      <h6>BOTONES</h6><a class="button" href="">Enlaces</a><a class="button" href="">de</a><a class="button" href="">Ejemplo</a><a class="button" href="">por</a><a class="button" href="">Boilerplate</a><a class="button" href="">Selesia</a>
+      <hr/>
+      <h6>FORMULARIOS</h6>
+      <div class="row"> 
+        <div class="column column-50">
+          <form class="form">
+            <fieldset> 
+              <label>Username </label>
+              <input type="text" placeholder="Username "/>
+            </fieldset>
+            <fieldset>
+              <label>Select </label>
+              <select>
+                <option value="value 1">Value 1</option>
+                <option value="value 2">Value 2</option>
+                <option value="value 3">Value 3</option>
+              </select>
+            </fieldset>
+            <fieldset>
+              <label>Message</label>
+              <textarea rows="6" placeholder="Hi Selesia ..."></textarea>
+            </fieldset>
+          </form>
+        </div>
+        <div class="column column-50">
+          <form class="form">
+            <fieldset>
+              <label>Password</label>
+              <input type="password" placeholder="Password"/>
+            </fieldset>
+            <fieldset>
+              <label>Select </label>
+              <select>
+                <option value="value 1">Value 1</option>
+                <option value="value 2">Value 2</option>
+                <option value="value 3">Value 3</option>
+              </select>
+            </fieldset>
+            <fieldset>
+              <label>Message</label>
+              <textarea rows="6" placeholder="Hi Selesia ..."></textarea>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+      <hr/>
+      <h6>LISTAS</h6>
+      <div class="row"> 
+        <div class="column">
+          <ul>
+            <li>Lista 1</li>
+            <li>Lista 2</li>
+            <li>Lista 3</li>
+            <ul> 
+              <li>item</li>
+              <li>item</li>
+              <li>item</li>
+              <li>item</li>
+              <li>item</li>
+            </ul>
+          </ul>
+        </div>
+        <div class="column">
+          <ul>
+            <li>Lista 1</li>
+            <li>Lista 2</li>
+            <li>Lista 3</li>
+            <ul> 
+              <li>item</li>
+              <li>item</li>
+              <li>item</li>
+              <li>item</li>
+              <li>item</li>
+            </ul>
+          </ul>
+        </div>
+        <div class="column">
+          <ul>
+            <li>Lista 1</li>
+            <li>Lista 2</li>
+            <li>Lista 3</li>
+            <ul> 
+              <li>item</li>
+              <li>item</li>
+              <li>item</li>
+              <li>item</li>
+              <li>item</li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+      <hr/>
+      <h6>TABLAS</h6>
+      <div class="row"> 
+        <table>
+          <tr>
+            <th>title 1</th>
+            <th>title 2</th>
+            <th>title 3</th>
+          </tr>
+          <tr> 
+            <td>value 1</td>
+            <td>value 2</td>
+            <td>value 3</td>
+          </tr>
+          <tr> 
+            <td>value 1</td>
+            <td>value 2</td>
+            <td>value 3</td>
+          </tr>
+          <tr> 
+            <td>value 1</td>
+            <td>value 2</td>
+            <td>value 3</td>
+          </tr>
+        </table>
+      </div>
+      <hr/>
+      <div class="footer">
+        <p>Designed by Franz Victorio. Licensed under the MIT License.</p>
+      </div>
+    </div>
+  </body>
+</html>

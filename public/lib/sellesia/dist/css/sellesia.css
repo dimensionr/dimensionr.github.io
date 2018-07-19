@@ -211,25 +211,45 @@ p {
   }
 }
 .link {
-  color: rgba(13,117,165,0.7);
+  color: rgba(85,85,85,0.7);
+  line-height: 24px;
+  display: inline-block;
+  padding: 5px 10px 5px 10px;
+  background-color: transparent;
+  transition: background-color 1s;
+  border-radius: 2px;
+  -webkit-transition: background-color 1s;
+  -moz-transition: background-color 1s;
+  -o-transition: background-color 1s;
 }
 .link:hover {
   color: #0d75a5;
+  background-color: rgba(227,227,227,0.3);
+  transition: background-color 1s;
+  -webkit-transition: background-color 1s;
+  -moz-transition: background-color 1s;
+  -o-transition: background-color 1s;
 }
 .button {
-  color: #034e75;
-  border-top: 1px solid #034e75;
-  border-bottom: 2px solid #034e75;
-  border-left: 1px solid rgba(201,203,204,0.5);
-  border-right: 1px solid rgba(201,203,204,0.5);
+  color: #000;
+  border: 1px solid rgba(193,193,193,0.6);
   display: inline-block;
   text-decoration: none;
-  padding: 7px 28px;
+  padding: 7px 30px;
   margin: 4px 5px;
+  border-radius: 4px;
+  transition: border 1s;
+  -webkit-transition: border 1s;
+  -moz-transition: border 1s;
+  -o-transition: border 1s;
 }
 .button:hover {
-  color: #fff;
-  background: #034e75;
+  color: #000;
+  border: 1px solid #000;
+  transition: border 1s;
+  -webkit-transition: border 1s;
+  -moz-transition: border 1s;
+  -o-transition: border 1s;
 }
 .form fieldset {
   border-top: 1px solid color_border_feldset;
@@ -281,12 +301,16 @@ ul {
   list-style: none;
 }
 li {
-  line-height: 22px;
+  line-height: 12px;
   padding: 4px 0;
+}
+li a {
+  text-decoration: none;
 }
 li::before {
   content: ' ⎔ ';
   color: #026392;
+  font-size: 12px;
 }
 table {
   width: 100%;
