@@ -1,0 +1,30 @@
+{
+  "name": "dimensionr.github.io",
+  "version": "1.0.0",
+  "description": "web sobre ciencias",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-connect": "^5.5.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-plumber": "^1.2.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^1.3.0",
+    "gulp-stylus": "^2.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimensionr/dimensionr.github.io.git"
+  },
+  "author": "Franz, Carlos, Freider, Renzo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dimensionr/dimensionr.github.io/issues"
+  },
+  "homepage": "https://github.com/dimensionr/dimensionr.github.io#readme",
+  "dependencies": {}
+}
