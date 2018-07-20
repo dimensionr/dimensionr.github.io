@@ -26,9 +26,8 @@ gulp.task('pug', function(){
 });
 
 gulp.task('html', function () {
-  gulp.src(['./*.html'], ['./post/freider/*.html'], ['./post/oromion/*.html'], ['./post/debian-4ever/*.html'])
+  gulp.src(['./*.html'], ['./freider/post/*.html'], ['./oromion/post/*.html'], ['./debian-4ever/post/*.html'])
     .pipe(gulp.dest('./'))
-    // .pipe(connect.reload());
     .pipe(livereload());
 });
 
