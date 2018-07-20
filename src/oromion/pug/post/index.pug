@@ -1,0 +1,13 @@
+extends ../partials/layout
+block vars
+  - var title = "Entradas";
+    include ./data
+block content 
+  .container-fullwidth
+    .header
+      h1 #{title}
+  .container
+    ul
+      each val in entries
+        li
+          a.link(href='vectors/' + val.template + '.html') #{val.title}
