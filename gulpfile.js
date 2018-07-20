@@ -44,7 +44,7 @@ gulp.task('pug:oromion', function(){
  });
 
 gulp.task('html', function () {
-  gulp.src(['./*.html'], ['./freider/post/*.html'], ['./oromion/post/*.html'], ['./debian-4ever/post/*.html'], './evn/post/*.html'])
+  gulp.src(['./*.html'], ['./freider/post/*.html'], ['./oromion/post/*.html'], ['./debian-4ever/post/*.html'], ['./evn/post/*.html'])
     .pipe(gulp.dest('./'))
     .pipe(livereload());
 });
