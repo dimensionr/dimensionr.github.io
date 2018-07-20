@@ -1,8 +1,9 @@
 body {
   background-color: #fff;
+  color: rgba(125,111,116,0.33);
 }
 .header {
-  background: #000;
+  background: #f00;
   color: #fff;
   text-align: center;
   padding: 100px 0 100px 0;

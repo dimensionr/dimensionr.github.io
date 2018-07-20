@@ -11,4 +11,4 @@ block content
     ul
       each val in entries
         li
-          a.link(href='vectors/' + val.template + '.html') #{val.title}
+          a.link(href= val.directory + '/' + val.template + '.html') #{val.title}
