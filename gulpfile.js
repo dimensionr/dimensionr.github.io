@@ -78,3 +78,10 @@ gulp.task('default', [
   'watch',
   'connect'
 ])
+
+gulp.task('oromion', [
+  'stylus:oromion',
+  'pug:oromion',
+  'watch:oromion',
+  'connect'
+])
