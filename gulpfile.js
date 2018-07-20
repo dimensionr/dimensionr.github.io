@@ -15,6 +15,14 @@ gulp.task('stylus', () => {
     .pipe(livereload());
 });
 
+gulp.task('stylus:oromion', () => {
+  gulp.src('./src/oromion/stylus/home.styl')
+    .pipe(plumber())
+    .pipe(stylus())
+    .pipe(gulp.dest('./public/css/oromion/'))
+    .pipe(livereload());
+});
+
 gulp.task('pug', function(){
  gulp.src(['./src/evn/pug/post/**/*.pug'], ['./src/evn/pug/index.pug'],)
 	.pipe(plumber())
