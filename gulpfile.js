@@ -24,7 +24,7 @@ gulp.task('stylus:oromion', () => {
 });
 
 gulp.task('pug', function(){
- gulp.src(['./src/evn/pug/post/**/*.pug'], ['./src/evn/pug/index.pug'],)
+ gulp.src(['./src/evn/pug/post/**/*.pug'], ['./src/evn/pug/index.pug'])
 	.pipe(plumber())
 	.pipe(pug({
 		pretty: true
@@ -34,7 +34,7 @@ gulp.task('pug', function(){
 });
 
 gulp.task('pug:oromion', function(){
-  gulp.src(['./src/oromion/pug/post/**/*.pug'], ['./src/oromion/pug/index.pug'],)
+  gulp.src(['./src/oromion/pug/post/**/*.pug'], ['./src/oromion/pug/index.pug'])
    .pipe(plumber())
    .pipe(pug({
      pretty: true
