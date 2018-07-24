@@ -11,5 +11,4 @@ block content
 		ul
 			each val in entries
 				li
-					a.link(href='lua_reference/' + val.template + '.html') #{val.title}
-					//-a.link(href='lua_programming/' + val.template + '.html') #{val.title}
+					a.link(href=val.folder + '/' + val.template + '.html') #{val.title}
