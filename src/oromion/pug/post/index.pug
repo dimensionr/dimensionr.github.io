@@ -1,15 +1,15 @@
 extends ../partials/layout
 block vars
-  include ../partials/data
-  - 
-    var title = "Entradas";
+	include ../partials/data
+	- 
+		var title = "Entradas";
 block content 
-  .container-fullwidth
-    .header
-      h1 #{title}
-  .container
-    ul
-      each val in entries
-        li
-          a.link(href='lua_reference/' + val.template + '.html') #{val.title}
-          //-a.link(href='lua_programming/' + val.template + '.html') #{val.title}
+	.container-fullwidth
+		.header
+			h1 #{title}
+	.container
+		ul
+			each val in entries
+				li
+					a.link(href='lua_reference/' + val.template + '.html') #{val.title}
+					//-a.link(href='lua_programming/' + val.template + '.html') #{val.title}
