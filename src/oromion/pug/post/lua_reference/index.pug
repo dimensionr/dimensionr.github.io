@@ -1,0 +1,15 @@
+extends ../../partials/layout
+block vars
+	include ../../partials/data  
+
+	//- Iteration Entries from partials/data.pug 
+	- var title = "Programming in Lua 5.3";
+	-  for(var i = 0; i < entries.length; i++){
+			if entries[i].title === title
+				- var index = entries[i].index;
+	- }
+	
+block content
+	p Indenting the body tag here would make no difference.
+	
+	p HTML itself isn't whitespace-sensitive.
