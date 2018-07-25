@@ -13,7 +13,7 @@
   text-transform: uppercase;
   font-weight: bold;
   color: #000;
-  border: 1px solid #45cb82;
+  border: 2px solid #45cb82;
   padding: 2px;
   text-transform: uppercase;
   font-size: 11px;
@@ -44,15 +44,14 @@
   font-weight: bold;
 }
 .btn-header img {
-  max-width: 50px imp;
-  margin: 0 imp;
-  padding: 0 imp;
+  margin-top: -4px !important;
+  padding: 0 !important;
 }
 .btn-border {
   text-transform: uppercase;
   font-weight: bold;
   color: #000;
-  border: 1px solid #45cb82;
+  border: 2px solid #45cb82;
   padding: 2px;
   margin: 5px auto;
   text-transform: uppercase;
@@ -73,8 +72,8 @@
   max-width: 186px;
   margin: -5px auto;
   color: #45cb82;
-  border-left: 1px solid #45cb82;
-  border-bottom: 1px solid #45cb82;
+  border-left: 2px solid #45cb82;
+  border-bottom: 2px solid #45cb82;
   line-height: 20px;
   padding: 3px 10px;
 }
@@ -84,8 +83,8 @@
   max-width: 166px;
   margin: -5px auto;
   color: #45cb82;
-  border-left: 1px solid #45cb82;
-  border-bottom: 1px solid #45cb82;
+  border-left: 2px solid #45cb82;
+  border-bottom: 2px solid #45cb82;
   line-height: 10px;
   padding: 3px 20px;
 }
@@ -127,14 +126,14 @@
 .description {
   position: relative;
   margin: 40px auto;
-  border: 1px solid #45cb82;
+  border-top: 2px solid #45cb82;
 }
 .description h6 {
   display: block;
-  background: #242323;
+  background: #1c1a1a;
   position: absolute;
   top: -18px;
-  margin-left: 20px;
+  left: 10%;
 }
 i {
   position: absolute;
@@ -156,5 +155,13 @@ h6 {
 }
 body {
   color: #45cb82;
-  background: #242323;
+  background: #1c1a1a;
+}
+.copyright {
+  text-align: center;
+}
+.copyright p {
+  margin: 0;
+  padding: 0;
+  color: rgba(69,203,130,0.5);
 }
