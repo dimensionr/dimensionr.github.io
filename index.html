@@ -1,74 +1,90 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dimension R</title>
     <link rel="stylesheet" href="public/lib/sellesia/dist/css/sellesia-normalize.css">
     <link rel="stylesheet" href="public/lib/sellesia/dist/css/sellesia.min.css">
-
     <link rel="stylesheet" href="public/css/evn/home.css">
-
-    <!-- KaTeX -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="public/images/dr.png">
+    <!-- KaTeX-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0-beta1/katex.min.css" integrity="sha384-VEnyslhHLHiYPca9KFkBB3CMeslnM9CzwjxsEbZTeA21JBm7tdLwKoZmCt3cZTYD" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0-beta1/katex.min.js" integrity="sha384-O4hpKqcplNCe+jLuBVEXC10Rn1QEqAmX98lKAIFBEDxZI0a+6Z2w2n8AEtQbR4CD" crossorigin="anonymous"></script>
-    <!-- Auto render KaTeX -->
+    <!-- Auto render KaTeX-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0-beta1/contrib/auto-render.min.js" integrity="sha384-IiI65aU9ZYub2MY9zhtKd1H2ps7xxf+eb2YFG9lX6uRqpXCvBTOidPRCXCrQ++Uc" crossorigin="anonymous"></script>
-
-</head>
-
-<body id='KaTeX'>
+  </head>
+  <body id="KaTeX">
     <div class="container-fullwidth">
-        <div class="header">
-            <div class="title">
-                <h1> Dimension R</h1>
+      <div class="header">
+        <div class="btn-header"><a class="btn-logo" href="/"><img src="public/images/dr.png"></a><a class="btn-main" href="/">Dimension R</a></div>
+      </div>
+      <div class="container-fullwidth">
+        <div class="container">
+          <div class="row">
+            <div class="user">
+              <div class="btn-border"><a class="btn" href="#">Debian 4ever</a><a class="btn-logo" href="/"><img src="public/images/renzo.jpg"></a></div>
+              <h6 class="details-sm"><i class="fas fa-user"></i>Usuario Linux
+              </h6>
             </div>
+            <div class="user">
+              <div class="btn-border"><a class="btn" href="#">Freider</a><a class="btn-logo" href="/"><img src="public/images/freider.jpg"></a></div>
+              <h6 class="details-lg"><i class="fas fa-user"></i>Ciencias de la computación
+              </h6>
+            </div>
+            <div class="user">
+              <div class="btn-border"><a class="btn" href="#">Oromion</a><a class="btn-logo" href="/oromion/post/index.html"><img src="public/images/oromion.gif"></a></div>
+              <h6 class="details-sm"><i class="fas fa-user"></i>Matemático			
+              </h6>
+            </div>
+            <div class="user">
+              <div class="btn-border"><a class="btn" href="#">Evn	</a><a class="btn-logo" href="/evn/post/index.html"><img src="public/images/evn.png"></a></div>
+              <h6 class="details-sm"><i class="fas fa-user"></i>privado
+              </h6>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <div class="description">
+                <h6>KaTeX</h6>
+                <p>$$ x^2 y^{\prime\prime} + xy^{\prime} - 4y = 0 \qquad (1)$$</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="description">
+                <h6>Descripción</h6>
+                <p>
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-    <div class="container">
-        <h2>Entradas por integrantes:</h2>
-        <ul>
-            <li>
-                <a href="#" class='link'>Debian 4ever</a>
-            </li>
-            <li>
-                <a href="#" class='link'>Freider</a>
-            </li>
-            <li>
-                <a href="/oromion/post/index.html" class='link'>Oromion</a>
-            </li>
-            <li>
-                <a href="/evn/post/index.html" class='link'>Evn</a>
-            </li>
-        </ul>
-        <h3>KateX</h3>
-        <p>$$ x^2 y^{\prime\prime} + xy^{\prime} - 4y = 0 \qquad (1)$$</p>
+      </div>
     </div>
     <script>
-        renderMathInElement(
-            document.getElementById("KaTeX"), {
-                delimiters: [{
-                    left: "$$",
-                    right: "$$",
-                    display: true
-                }, {
-                    left: "\\[",
-                    right: "\\]",
-                    display: true
-                }, {
-                    left: "$",
-                    right: "$",
-                    display: false
-                }, {
-                    left: "\\(",
-                    right: "\\)",
-                    display: false
-                }]
-            }
-        );
+      renderMathInElement(
+      document.getElementById("KaTeX"), {
+      	delimiters: [{
+      		left: "$$",
+      		right: "$$",
+      		display: true
+      	}, {
+      		left: "\\\[",
+      		right: "\\\]",
+      		display: true
+      	}, {
+      		left: "$",
+      		right: "$",
+      		display: false
+      	}, {
+      		left: "\\\(",
+      		right: "\\\)",
+      		display: false
+      	}]
+      }
+      );
     </script>
-</body>
-
+  </body>
 </html>

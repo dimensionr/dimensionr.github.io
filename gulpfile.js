@@ -23,6 +23,16 @@ gulp.task('stylus:oromion', () => {
     .pipe(livereload());
 });
 
+gulp.task('home', function(){
+ gulp.src(['./src/home/index.pug'])
+	.pipe(plumber())
+	.pipe(pug({
+		pretty: true
+	}))
+	.pipe(gulp.dest('./'))
+	.pipe(livereload());
+});
+
 gulp.task('pug', function(){
  gulp.src(['./src/evn/pug/post/**/*.pug'], ['./src/evn/pug/index.pug'])
 	.pipe(plumber())
@@ -53,6 +63,7 @@ gulp.task('html', function () {
 gulp.task('watch', function(){
   livereload.listen();
   gulp.watch('./src/evn/stylus/*.styl', ['stylus']);
+	gulp.watch(['./src/home/*.pug', './src/home/partials/*.pug'], ['home'])
   gulp.watch(['./src/evn/pug/post/**/*.pug', './src/evn/pug/post/index.pug'], ['pug']);
   gulp.watch('./*.html', ['html']);
 });
@@ -75,6 +86,7 @@ gulp.task('connect', function() {
 gulp.task('default', [
   'stylus',
   'pug',
+	'home',
   'watch',
   'connect'
 ])
