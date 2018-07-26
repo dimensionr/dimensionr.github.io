@@ -136,13 +136,19 @@
 .description {
   position: relative;
   margin: 40px auto;
-  padding-top: 25px;
+  text-align: justify;
+  padding: 25px 14px;
   border-top: 2px solid #45cb82;
 }
 .description i {
   color: #fbf448;
 }
 .description ul li {
+  display: inline-block;
+  min-width: 120px;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  background: #292626;
   color: #fb5c5c;
   font-weight: bold;
   font-size: 14px;
