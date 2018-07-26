@@ -19,8 +19,7 @@ block content
 						a.btn(href='#') Debian 4ever
 						a.btn-logo(href='/')
 							img(src='public/images/renzo.jpg')
-					h6.details-sm
-						-sm 
+					h6.details-lg
 						i.fas.fa-chalkboard
 						| Software design pattern
 				.user
@@ -29,7 +28,6 @@ block content
 						a.btn-logo(href='/')
 							img(src='public/images/freider.jpg')
 					h6.details-lg
-						-lg
 						i.fas.fa-chalkboard
 						| Científico de la computación
 				.user
@@ -38,7 +36,6 @@ block content
 						a.btn-logo(href='/oromion/post/index.html')
 							img(src='public/images/oromion.gif')
 					h6.details-sm
-						-sm
 						i.fas.fa-chalkboard
 						| Matemático			
 				.user
@@ -47,7 +44,6 @@ block content
 						a.btn-logo(href='/evn/post/index.html')
 							img(src='public/images/evn.png')
 					h6.details-sm
-						-sm
 						i.fas.fa-chalkboard
 						| Privado
 	
@@ -57,7 +53,28 @@ block content
 					h6 KaTeX
 					p $$ x^2 y^{\prime\prime} + xy^{\prime} - 4y = 0 \qquad (1)$$
 			.column
-				h6 asa
+				.row
+					.column
+						.description
+							h6 Descripción
+							p 
+								| El grupo ”Dimensión R” de investigación en matemáticas, ciencias de la computación y patrones de diseño viene funcionando desde el mes de julio del año 2018 en la Facultad de Ciencias de la Universidad Nacional de Ingeniería. Desde entonces ha tenido una trayectoria estable. Este equipo está estrechamente influenciado por los últimos avances con respecto a la tecnología en los siguientes tópicos:
+							ul 
+								li Lua
+								li LaTeX
+								li C 
+								li C++ 
+								li Qt
+								li NodeJS
+				.row
+					.column
+						.description
+							h6 Grupo Dimensión R:
+							p Siglas: GDRTipo: Interdisciplinario    
+							p Fecha de fundación: Julio del 2018  
+							p Coordinador: Salcedo Pajuelo, Renzo 
+							p Correo del grupo: grupo.dimensionr@gmail.com
+
 	script.
 		renderMathInElement(
 		document.getElementById("KaTeX"), {
