@@ -229,6 +229,10 @@ h6 {
   color: #fbf448;
   text-shadow: 0 0 1px #45cb82;
 }
+span {
+  color: #ebebeb;
+  font-size: 17px;
+}
 li::before {
   content: '';
 }
