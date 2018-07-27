@@ -244,3 +244,20 @@ body {
   padding: 0;
   color: rgba(69,203,130,0.5);
 }
+.table {
+  border: 1px solid #45cb82;
+  margin: 0 auto;
+}
+.table th {
+  font-size: 12px;
+  padding: 3px 10px;
+  color: #fbf448;
+  text-transform: uppercase;
+  border-bottom: 1px solid #45cb82;
+}
+.table td {
+  font-size: 12px;
+  color: #73f0ac;
+  padding: 3px 10px;
+  border-bottom: 1px solid #45cb82;
+}
