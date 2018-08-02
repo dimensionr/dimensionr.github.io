@@ -133,13 +133,6 @@
 .navbar {
   max-width: 425px;
 }
-.description {
-  position: relative;
-  margin: 40px auto;
-  text-align: justify;
-  padding: 25px 14px;
-  border-top: 2px solid #45cb82;
-}
 .description i {
   color: #fbf448;
 }
@@ -212,6 +205,8 @@
   position: relative;
   margin: 40px auto;
   border-top: 2px solid #45cb82;
+  text-align: justify;
+  padding: 25px 14px;
 }
 .box h6,
 .title h6,
