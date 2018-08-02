@@ -235,9 +235,17 @@ h6 {
   color: #fbf448;
   text-shadow: 0 0 1px #45cb82;
 }
+.katex-display {
+  text-align: left;
+}
+.center {
+  text-align: center;
+}
 span {
+  display: inline-block;
   color: #dedede;
   font-size: 17px;
+  text-align: left;
 }
 li::before {
   content: '';
