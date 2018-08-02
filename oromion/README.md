@@ -36,3 +36,56 @@ También habrá material opcional proporcionado en muchos de los módulos. Estos
 
 "Pasar" el curso
 Los estudiantes deben aprobar cada evaluación calificada para aprobar el curso, independientemente de su calificaci
+
+Acerca del grupo
+===
+El grupo **”Dimensión R”** de investigación en matemáticas, ciencias de la computación y patrones de diseño viene funcionando desde el mes de julio del año 2018 en la Facultad de Ciencias de la Universidad Nacional de Ingeniería. Desde entonces ha tenido una trayectoria estable. Este equipo está estrechamente influenciado por los últimos avances con respecto a la tecnología en los siguientes tópicos:
+- Lua
+- Sage
+- (La)TeX
+- C
+- C++
+- Qt
+- Node.js
+
+## Grupo Dimensión R
+
+**Siglas:** GDR
+
+**Tipo:** Interdisciplinario	
+
+**Fecha de fundación:** Julio del 2018	
+
+**Coordinador:** Salcedo Pajuelo, Renzo	
+
+**Correo del grupo:** grupo.dimensionr@gmail.com
+
+## Objetivos Generales:
+
+El objetivo general del grupo es aplicar y desarrollar metodologías de enseñanza innovadoras con el fin de difundir temas sobre ciencia de manera sencilla y sintetizada. Además
+
+investigación en las áreas de didáctica en la matemática, la programación.
+
+En el aspecto estrictamente científico, buscamos obtener resultados en los siguientes tópicos:
+
+1. Clasificación topológica/analítica de singularidades de campos de vectores holomorfos.
+2. Formas normales de singularidades de formas holomorfas en dimensión 3.
+3. Campos de vectores analíticos en el plano y el 16to problema de Hilbert.
+4. Geometría y dinámica de superficies Levi-flat en espacios proyectivos
+
+En los demás aspecto, el grupo tiene como objetivo:
+
+1. Contribuir a la formación de investigadores en ciencias básicas, así como profesionales en áreas afines.
+2. Fomentar la formación básica promoviendo y participando eventos de divulgación.
+3. Contribuir a la formación de profesores, no solo universitarios, si no también de nivel secundario, con la realización talleres de perfeccionamiento y charlas de divulgación.
+4. Contribuir a la modernización y perfeccionamiento de los programas académicos en el área de la matemática y áreas relacionadas que tenemos actualmente en la PUCP, así como fomentar la creación de nuevos programas que sean profesional o científicamente pertinentes y congruentes con el continuo avance de nuestra ciencia.
+
+### Líneas temáticas:
+
+* API C con Lua
+* Framework con Node.js
+* Estudio de la herramienta de automización arara para programas TeX.
+* Análisis de los arreglos multidimnsionales en C
+* Software design pattern
+
+**Web:** http://dimensionr.github.io
