@@ -13,8 +13,8 @@ block content
 	.container
 		h1 #{title}
 		.description
-			p En este post vamos a mostrar los pasos de instalación de Lua en ordenador basado en Debian y mostraremos algunos algoritmos sencillos en programación con elementos como funciones, arreglos y datos. $\TeX$ $$2$$
-			p.center $$\int$$
+			p En este post vamos a mostrar los pasos de instalación de Lua en ordenador basado en Debian y mostraremos algunos algoritmos sencillos en programación con elementos tales como datos, arreglos y  funciones. Posteriormente mostraremos $\TeX$ $$2$$
+			p.center $$\int\exp(x)\,\mathrm{dx}=\exp(x)$$
 		.box
 			h6 Instalación de Lua
 			.row
@@ -37,6 +37,58 @@ block content
 					p Texto
 		.box
 			h6 Referencias
+			.row
+				.column
+					#refs.references
+						#ref-appel
+							p
+								| [1] Appel, Kenneth, and Wolfgang Haken. 1977. “The Solution of the Four-Color-Map Problem.” 
+								em Scientific American
+								|  237 (4). Scientific American, a division of Nature America, Inc.: 108–21.
+						#ref-birkhoff
+							p
+								| [2] Birkhoff, George D. 1913. “The Reducibility of Maps.” 
+								em American Journal of Mathematics
+								|  35 (2). Johns Hopkins University Press: 115–28.
+						#ref-laszlo
+							p
+								| [3] Combinatorics, and Optimization University of Waterloo. 2017a. “SiGMa 2017 László Miklós Lovász, Extremal Graph Theory and Finite Forcibility.” 
+								a.uri(href='https://www.youtube.com/watch?v=OfPf4qA1x_k') https://www.youtube.com/watch?v=OfPf4qA1x_k
+								| .
+						#ref-SeymourSigma
+							p
+								| [4] “SiGMa 2017 Paul Seymour, Rainbow Induced Paths in Graphs with Large Chromatic and Small Clique Number.” 
+								a.uri(href='https://www.youtube.com/watch?v=CnxmwDuYpX8') https://www.youtube.com/watch?v=CnxmwDuYpX8
+								| .
+						#ref-fritsch
+							p
+								| [5] Fritsch, Rudolf, and Gerda Fritsch. 1998. 
+								em The Four-Color Theorem: History, Topological Foundations, and Idea of Proof.
+								|  Springer.
+						#ref-kempe
+							p
+								| [6] Kempe, Alfred Bray. 1879. “On the Geographical Problem of the Four Colours.” 
+								em American Journal of Mathematics
+								|  2 (3). Johns Hopkins University Press: 193–200.
+						#ref-matousek
+							p
+								| [7] Matoušek, Jiří, and Jaroslav Nešetřil. 2009. 
+								em Invitation to Discrete Mathematics
+								| . Oxford University Press.
+						#ref-robertson
+							p
+								| [8] Robertson, Neil, Daniel Sanders, Paul Seymour, and Robin Thomas. 1997. “The Four-Colour Theorem.” 
+								em Journal of Combinatorial Theory, Series B
+								|  70 (1). Elsevier: 2–44.
+						#ref-Robin
+							p
+								| [9] Thomas, Robin. 1995. “The Four Color Theorem.” 
+								a.uri(href='http://people.math.gatech.edu/~thomas/FC/') http://people.math.gatech.edu/~thomas/FC/
+								| .
+						#ref-vilfred
+							p
+								| [10] Vilfred Kamalappan, V. 2017. “The Four Color Theorem: A New Proof by Induction.”
+
 	script.
 		renderMathInElement(
 		document.getElementById("KaTeX"), {
