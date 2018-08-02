@@ -123,6 +123,9 @@
 .navbar {
   max-width: 425px;
 }
+.box,
+.title,
+.post,
 .description {
   position: relative;
   margin: 40px auto;
