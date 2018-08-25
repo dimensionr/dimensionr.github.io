@@ -56,9 +56,9 @@ block content
 						a(href='#') KaTeX 
 						| en el grupo para escribir texto científico.
 
-					p $$ x^2 y^{\prime\prime} + xy^{\prime} - 4y = 0 \qquad$$
-					p $$f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi$$
-					p.right $$ C = 
+					p.center $$ x^2 y^{\prime\prime} + xy^{\prime} - 4y = 0 \qquad$$
+					p.center $$f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi$$
+					p.center $$ C = 
 						| \left(\begin{matrix}
 						| 0 & 0 & 12 & 14 \\ 
 						| 12 & 1 & 0 & 10 \\ 
@@ -107,6 +107,7 @@ block content
 
 		
 				.description
+					h6 Información: 
 					table.table
 						tr 
 							th Siglas:
@@ -126,22 +127,10 @@ block content
 								a(href='mailto:dimensionrgroup@gmail.com') dimensionrgroup@gmail.com
 							
 							
-					h6 Información: 
-					//- p 
-					//- 	span.ii Siglas: 
-					//- 	| GDR
-					//- p 
-					//- 	span.ii Tipo: 
-					//- 	| Interdisciplinario    
-					//- p 
-					//- 	span.ii Fecha de fundación: 
-					//- 	| Julio del 2018  
-					//- p 
-					//- 	span.ii Coordinador: 
-					//- 	| Salcedo Pajuelo, Renzo 
-					//- p 
-					//- 	span.ii Correo del grupo: 
-					//- 	| grupo.dimensionr@gmail.com
+		.row.container
+			.social
+				a.fb(href='https://www.facebook.com/dimensionr.uni/' target='_blank') 
+					i.fab.fa-facebook-square
 
 	script.
 		renderMathInElement(

@@ -133,6 +133,9 @@
 .navbar {
   max-width: 425px;
 }
+.description a {
+  color: #45cb82;
+}
 .description i {
   color: #fbf448;
 }
@@ -278,4 +281,21 @@ body {
   color: #73f0ac;
   padding: 3px 10px;
   border-bottom: 1px solid #45cb82;
+}
+.table a {
+  color: #45cb82;
+}
+.social {
+  margin: 0 auto;
+}
+.social i {
+  color: #45cb82;
+  font-size: 40px;
+  padding: 0 30px;
+}
+.social a {
+  opacity: 0.5;
+}
+.social a:hover {
+  opacity: 1;
 }
