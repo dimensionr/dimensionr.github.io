@@ -1,0 +1,97 @@
+.button_container {
+  background: white
+  border: 1px solid black
+  position: fixed;
+  // border-radius: 10px
+  bottom: 2%;
+  right: 2%;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  z-index: 100;
+  transition: opacity .25s ease;
+}
+
+.button_container.active .top {
+  top 8px
+  background: rgb(246, 0, 0)
+  -webkit-transform: translateY(11px) translateX(0) rotate(45deg);
+          transform: translateY(11px) translateX(0) rotate(45deg);
+}
+.button_container.active .middle {
+  opacity: 0;
+  background: #FFF;
+}
+.button_container.active .bottom {
+  top:  30px
+  background: rgb(246, 0, 0)
+  -webkit-transform: translateY(-11px) translateX(0) rotate(-45deg);
+          transform: translateY(-11px) translateX(0) rotate(-45deg);
+}
+.button_container span {
+  background: #000000;
+  border: none;
+  height: 2px;
+  width: 70%;
+  margin: 0 auto;
+  position: absolute;
+  top: 12px;
+  left: 0;
+  right: 0
+  transition: all .35s ease;
+  cursor: pointer;
+}
+.button_container span:nth-of-type(2) {
+  background: rgb(41, 0, 101)
+  height: 3px
+  top: 19px;
+  width: 60px;
+  left: -10px
+}
+.button_container span:nth-of-type(3) {
+  top: 26px;
+  width: 70%;
+}
+
+.overlay {
+  position: fixed;
+  background: #ffffff;
+  bottom:  0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .35s, visibility .35s, height .35s;
+  overflow: hidden;
+}
+.overlay.open {
+  position: fixed;
+  top 0
+  opacity: .9;
+  visibility: visible;
+  height: 100%;
+  overflow: auto;
+}
+
+// @-webkit-keyframes fadeInRight {
+//   0% {
+//     opacity: 0;
+//     left: 20%;
+//   }
+//   100% {
+//     opacity: 1;
+//     left: 0;
+//   }
+// }
+//
+// @keyframes fadeInRight {
+//   0% {
+//     opacity: 0;
+//     left: 20%;
+//   }
+//   100% {
+//     opacity: 1;
+//     left: 0;
+//   }
+// }

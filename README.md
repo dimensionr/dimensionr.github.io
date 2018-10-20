@@ -1,12 +1,23 @@
-dimensionr.github.io
-===
+# Documentación:
+  Structure of project
 
-Projects
-
-
-
-```bash
-pc@deepin:$ npm i -g gulp
-pc@deepin:$ npm i
-pc@deepin:$ gulp oromion # Thats all
-```
+  ├── public
+      ├── assets
+          ├── fonts
+          ├── images
+      ├── js
+      ├── css
+  ├── src
+      ├── pug
+          ├── views
+      ├── stylus
+          ├── abstract
+          ├── themes
+              ├── aldnoahzero
+                ├── base
+                    ├── normalize.styl
+                    ├── ...
+                ├── components
+                    ├── ...
+                ├── aldnoahzero.theme.styl
+  ├── index.html
