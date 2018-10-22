@@ -3,21 +3,95 @@ block vars
 	//- include /partials/data
 	- var title = 'Dimension R'
 block content
-	.container.fullwidth
+	.container
 		//- Menu
-		include /partials/menu		
+		//- include /partials/menu		
 		
 		//- Content
 		.border-logo
 			.logo
 				img(src='/public/assets/images/dr.png', alt='Dimension R')
 				a(href='/') dimension r
-		h4 Falla rápido, falla a menudo.
-		section.post
-			h2 Descripción
-			.description
-				p
-					| El grupo ”Dimensión R” de investigación en matemáticas, ciencias de la computación y patrones de diseño viene funcionando desde el mes de julio del año 2018 en la Facultad de Ciencias de la Universidad Nacional de Ingeniería. Desde entonces ha tenido una trayectoria estable. Este equipo está estrechamente influenciado por los últimos avances con respecto a la tecnología en los siguientes tópicos:
+		//- h4 Falla rápido, falla a menudo.
+		.content
+			section.posts
+				.post
+					.about
+						//- h2 Descripción
+						.description
+							p
+								| Grupo dedicado a divulgar y aprender  las conexiones de la  Matemática y la Ciencia de la Computacíon.
+			section.news
+				.title
+					h2 Noticias
+					//- a(href='http://stem.uni.edu.pe/index.php/expociencia2018/' target='_blank')
+				.event
+					img(src='/public/assets/images/expo2018.png')
+					.descript
+						p
+							| Presentación de experimentos de las diferentes carreras en la Facultad de Ciencias.
+						a.read-more(href='http://stem.uni.edu.pe/index.php/expociencia2018/' target='_blank') Ir a la página oficial.
+							
+						h3 Experimentos recomendados:
+						a.exp(href='/public/assets/documents/Movimiento-browniano.pdf', target="_blank") Movimiento browniano
+					
+						a.exp(href='#') Modelamiento matemático de la reflexión de un objeto entre espejos
+					
+
+							
+				//- a(href='http://stem.uni.edu.pe/index.php/expociencia2018/' target='_blank').event
+				//- 	img(src='/public/assets/images/expo.png')
+				//- 
+				//- a(href='http://stem.uni.edu.pe/index.php/expociencia2018/' target='_blank').event
+				//- 	img(src='/public/assets/images/expo.png')
+				//- 
+				//- a(href='http://stem.uni.edu.pe/index.php/expociencia2018/' target='_blank').event
+				//- 	img(src='/public/assets/images/expo.png')
+							
+				
+			section.users
+				//- .user
+				//- 	.figure
+				//- 		img(src='/public/assets/images/renzo.jpg')
+				//- 	a(href='#') Software design pattern
+				//- 	.rol
+				//- 		p Cofundador
+				.title
+					h2 Integrantes
+				.user
+					.figure
+						img(src='/public/assets/images/freider.jpg')
+					a(href='#') Estudiante de Ciencia de la computación
+					.rol
+						p Cofundador
+				.user
+					.figure 
+						img(src='/public/assets/images/oromion.gif')
+					a(href='#') Estudiante de matemática
+					.rol
+						p Cofundador
+						
+			section.info
+				table
+					tbody
+						tr
+							th Siglas:
+							td GDR
+						tr
+							th tipo:
+							td Interdisciplinario
+						tr
+							th fecha de fundación:
+							td Julio del 2018
+						tr
+							th correo:
+							td dimensionrgroup@gmail.com
+							
+			section.workshops
+				
+				
+			footer
+				p © 2018 Dimension R - Powered by Selesia Boilerplate and GitHub Pages.
 		//- section.post
 		//- 	h3 Franz Victorio JS
 		//- 	.description

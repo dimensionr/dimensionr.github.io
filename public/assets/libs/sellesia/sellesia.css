@@ -61,9 +61,11 @@ hr {
   margin: 24px 0;
   color: rgba(198,198,198,0.2);
 }
+/*modificado p*/
 p {
-  line-height: 22px;
-  padding: 14px;
+  line-height: 18px;
+  padding: 0px 14px;
+  margin: 0;
 }
 .bg {
   background-color: rgba(0,0,0,0.1);
@@ -72,7 +74,7 @@ p {
 .container {
   position: relative;
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 1200px;
   box-sizing: border-box;
   padding: 0px;
 }
@@ -312,7 +314,7 @@ li::before {
   color: #026392;
   font-size: 12px;
 }
-table {
+/* table {
   width: 100%;
 }
 th,
@@ -323,7 +325,7 @@ td {
 }
 td {
   color: #026392;
-}
+} */
 .footer {
   text-align: center;
 }
