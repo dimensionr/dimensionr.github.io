@@ -442,6 +442,17 @@ table th {
   padding: 10px;
   border: 1px solid rgba(69,203,130,0.6);
 }
+.workshops {
+  text-align: center;
+}
+.workshop {
+  background: #5e5e5e;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 10px;
+  width: 130px;
+  height: 130px;
+}
 footer {
   margin-top: 40px;
   background: rgba(69,203,130,0.1);
