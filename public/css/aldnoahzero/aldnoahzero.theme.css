@@ -285,12 +285,13 @@ section {
 }
 .description-expo {
   text-align: justify;
-  padding: 10px 24px;
+  padding: 0px 24px;
   font-weight: bold;
   max-width: 720px;
   margin: 0 auto;
 }
 .description-expo p {
+  margin-top: 40px;
   font-size: 16px;
   padding: 0 30px;
   color: #fff;
