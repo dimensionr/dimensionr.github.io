@@ -199,7 +199,7 @@ template {
   background: #45cb82;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 5px 0;
+  padding: 0px 0;
   text-align: center;
   color: #000;
   font-weight: bold;
@@ -289,17 +289,19 @@ section {
   font-weight: bold;
   max-width: 560px;
   margin: 0 auto;
+  background: #fcfcfc;
 }
 .description-expo p {
   font-size: 20px;
+  color: #000;
 }
 .description-expo h2 {
-  color: #ecbb25;
+  color: #5300bd;
   line-height: 36px;
   margin: 26px auto;
 }
 .description-expo h3 {
-  color: #a2f0fb;
+  color: #015b6f;
   line-height: 36px;
   margin: 26px auto;
 }
