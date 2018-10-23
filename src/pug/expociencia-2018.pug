@@ -1,0 +1,30 @@
+extends /layout 
+block vars 
+	- title = "Expociencia 2018 | Dimension R"
+block content
+	.container
+		.border-logo
+			.logo
+				img(src='/public/assets/images/dr.png', alt='Dimension R')
+				a(href='/') dimension r
+		.content 
+			.title
+				h2 Expociencia 2018 
+			
+			
+		section
+			.description-expo
+				p Feria de experimentos dirigida a escolares y público en general
+				
+				h2 Del 23 al 26 de Octubre
+				//- a.read-more(href='http://stem.uni.edu.pe/index.php/expociencia2018/' target='_blank') Ir a la página oficial.
+				h3 Experimentos recomendados:
+				hr
+				img(src='/public/assets/images/movimiento-brow.png')
+				a.exp(href='/public/assets/documents/Movimiento-browniano.pdf', target="_blank") Descargar en PDF 
+				hr
+				//- a.exp(href='#') Modelamiento matemático de la reflexión de un objeto entre espejos
+				img(src='/public/assets/images/espejos.png')
+		img(src='/public/assets/images/expo2018_footer.png')
+		footer
+			p © 2018 Dimension R - Powered by Selesia Boilerplate and GitHub Pages.

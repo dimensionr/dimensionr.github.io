@@ -283,6 +283,26 @@ template {
 section {
   margin: 0px auto 60px auto;
 }
+.description-expo {
+  text-align: left;
+  padding: 20px 14px;
+  font-weight: bold;
+  max-width: 560px;
+  margin: 0 auto;
+}
+.description-expo p {
+  font-size: 20px;
+}
+.description-expo h2 {
+  color: #ecbb25;
+  line-height: 36px;
+  margin: 26px auto;
+}
+.description-expo h3 {
+  color: #a2f0fb;
+  line-height: 36px;
+  margin: 26px auto;
+}
 .post {
   max-width: 320px;
   margin: 0px auto 10px auto;
@@ -368,8 +388,8 @@ section {
   text-decoration: none;
   border: 2px solid rgba(69,203,130,0.2);
   padding: 4px;
-  margin: 10px 5px;
   max-width: 480px;
+  height: auto;
   opacity: 1;
   transition: all 1s;
   -moz-transition: all 1s;
@@ -384,44 +404,37 @@ section {
   -webkit-transition: all 1s;
   -o-transition: all 1s;
 }
-.descript {
-  background: rgba(69,203,130,0.15);
-  margin-top: 5px;
-  padding: 20px 0;
-  text-align: justify;
-  color: #fff;
-}
-.descript h3 {
-  font-size: 16px;
-  margin: 40px auto 10px auto;
-  color: #fee664;
-}
 .read-more {
-  background: #45cb82;
   display: block;
-  width: 200px;
+  height: auto;
+  max-width: 480px;
   text-align: center;
-  color: #000;
+  color: #fff;
+  opacity: 0.5;
   text-decoration: none;
-  padding: 5px;
-  margin: 10px;
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
 }
 .read-more:hover {
-  background: #76ebad;
+  opacity: 1;
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
 }
 .exp {
   display: block;
-  background: #f2e88b;
+  background: #fff;
   text-decoration: none;
   padding: 10px;
+  font-size: 15px;
   color: #000;
   font-weight: bold;
+  margin: 10px auto;
   text-transform: uppercase;
   text-align: center;
-  margin: 10px;
-}
-.exp:hover {
-  background: #eeda23;
 }
 table {
   margin: 0px auto;
