@@ -284,24 +284,32 @@ section {
   margin: 0px auto 60px auto;
 }
 .description-expo {
-  text-align: left;
-  padding: 20px 14px;
+  text-align: justify;
+  padding: 10px 24px;
   font-weight: bold;
-  max-width: 560px;
+  max-width: 720px;
   margin: 0 auto;
-  background: #fcfcfc;
 }
 .description-expo p {
-  font-size: 20px;
-  color: #000;
+  font-size: 16px;
+  padding: 0 30px;
+  color: #fff;
+  padding: 0px 10px;
+}
+.description-expo h1 {
+  border-bottom: 4px solid rgba(69,203,130,0.3);
+  padding: 10px 0;
+  color: #fff;
+  margin: 0px 0px 30px 0px;
 }
 .description-expo h2 {
-  color: #5300bd;
+  color: #8413d2;
+  text-align: center;
   line-height: 36px;
-  margin: 26px auto;
+  margin: 10px auto;
 }
 .description-expo h3 {
-  color: #015b6f;
+  color: #45cb82;
   line-height: 36px;
   margin: 26px auto;
 }
@@ -407,12 +415,15 @@ section {
   -o-transition: all 1s;
 }
 .read-more {
+  background: #45cb82;
   display: block;
   height: auto;
+  margin: 0 auto;
+  padding: 10px;
   max-width: 480px;
   text-align: center;
-  color: #fff;
-  opacity: 0.5;
+  color: #000;
+  opacity: 0.7;
   text-decoration: none;
   transition: all 1s;
   -moz-transition: all 1s;
