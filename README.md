@@ -1,23 +1,24 @@
-# Documentación:
-  Structure of project
+Documentation
+===
 
-  ├── public
-      ├── assets
-          ├── fonts
-          ├── images
-      ├── js
-      ├── css
-  ├── src
-      ├── pug
-          ├── views
-      ├── stylus
-          ├── abstract
-          ├── themes
-              ├── aldnoahzero
-                ├── base
-                    ├── normalize.styl
-                    ├── ...
-                ├── components
-                    ├── ...
-                ├── aldnoahzero.theme.styl
-  ├── index.html
+## Structure of project
+```sh
+├── public
+│   ├── assets
+│   │   ├── documents
+│   │   ├── fonts
+│   │   ├── images
+│   ├── css
+│   │   └── aldnoahzero
+│   └── js
+├── README.md
+├── src
+│   ├── assets
+│   │   ├── documents
+│   │   ├── fonts
+│   │   ├── images
+│   │   └── libs
+│   ├── pug
+│   └── stylus
+└── views
+```
